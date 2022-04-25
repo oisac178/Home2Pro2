@@ -1,0 +1,165 @@
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/open-sans-v18-latin_cyrillic-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/open-sans-v18-latin_cyrillic-regular.woff') format('woff');
+  /* Modern Browsers */
+}
+
+/* open-sans-700 - bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: local(''),
+    url('../fonts/open-sans-bold.woff2') format('woff2'),
+    url('../fonts/open-sans-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.body {
+  background-color: #FFFFFF;
+}
+
+
+.container {
+  max-width: 1440px;
+  padding: 0 57px;
+  margin: 0 auto;
+}
+
+/* How */
+
+.section-how__container {
+  background-color: #FFF6ED;
+  padding-top: 60px;
+  padding-bottom: 42px;
+}
+
+.section-how__header {
+  padding-bottom: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.section-how__item-color {
+  color: #FF7A00;
+}
+
+.section-how__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-how__icon {
+  margin-bottom: 21px;
+}
+
+.section-how__item-header {
+  margin-bottom: 6px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.section-how__description {
+  width: 375px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* Service */
+
+.section-service__list {
+  display: flex;
+}
+
+.section-service__item {
+  width: 720px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-service__header {
+  margin-bottom: 11px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+}
+
+.section-service__description {
+  width: 592px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.section-service__item-background {
+  position: absolute;  
+  top: 24px;
+  z-index: 0;
+}
+
+.section-service__list-icon {
+  display: flex;
+  position: absolute; 
+  left: 112px;
+  top: 93px;
+  z-index: 1;
+}
+
+.section-service__icon {
+  width: 70px;
+  height: 170px;
+}
+
+.section-service__icon:nth-child(2n) {
+  display: flex;
+  margin-right: 20px;
+  align-items:flex-end;
+}
